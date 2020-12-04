@@ -2,7 +2,7 @@ const fs = require('fs');
 const rawInput = fs.readFileSync('input.txt', 'utf8');
 const expenseReport = rawInput.split('\n');
 
-const productOfTwoNumbersThatSum2020 = (array) => {
+const productOfTwoNumbersThatSumTo2020 = (array) => {
     const numberArray = array.map(number => parseInt(number));
 
     for (let i = 0; i < numberArray.length; i++) {
@@ -10,8 +10,7 @@ const productOfTwoNumbersThatSum2020 = (array) => {
         let number2= numberArray.find(number => number + numberArray[i] === 2020);
         
         if(number2) {
-            console.log({number1});
-            console.log({number2});
+            console.log({number1, number2});
             return number1 * number2
 
         } else {
@@ -20,4 +19,4 @@ const productOfTwoNumbersThatSum2020 = (array) => {
     }
 }
 
-console.log('Product of two numbers that sum to 2020:', productOfTwoNumbersThatSum2020(expenseReport));
+console.log('Product of two numbers that sum to 2020:', productOfTwoNumbersThatSumTo2020(expenseReport));
