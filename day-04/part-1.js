@@ -51,3 +51,4 @@ const countValidPassports = (passports) => {
 };
 
 console.log(countValidPassports(passports));
+console.log(passports)
