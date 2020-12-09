@@ -47,7 +47,7 @@ Using the above example again, the three entries that sum to 2020 are 979, 366, 
 
 In your expense report, what is the product of the three entries that sum to 2020?
 
-<p align="right">[▲](#advent-of-code-2020)</p>
+[▲](#advent-of-code-2020)
 
 ## Day 2 - Password Philosophy
 
@@ -91,7 +91,7 @@ Given the same example list from above:
 
 How many passwords are valid according to the new interpretation of the policies?
 
-<p align="right">[▲](#advent-of-code-2020)</p>
+[▲](#advent-of-code-2020)
 
 ## Day 3 - Toboggan Trajectory
 
@@ -172,4 +172,4 @@ In the above example, these slopes would find 2, 7, 3, 4, and 2 tree(s) respecti
 
 What do you get if you multiply together the number of trees encountered on each of the listed slopes?
 
-<p align="right">[▲](#advent-of-code-2020)</p>
+[▲](#advent-of-code-2020)
