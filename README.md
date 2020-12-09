@@ -47,6 +47,8 @@ Using the above example again, the three entries that sum to 2020 are 979, 366, 
 
 In your expense report, what is the product of the three entries that sum to 2020?
 
+<p align="right">[▲](#advent-of-code-2020)</p>
+
 ## Day 2 - Password Philosophy
 
 ### Part 1
@@ -88,6 +90,8 @@ Given the same example list from above:
 `2-9 c: ccccccccc` is invalid: both position 2 and position 9 contain c.
 
 How many passwords are valid according to the new interpretation of the policies?
+
+<p align="right">[▲](#advent-of-code-2020)</p>
 
 ## Day 3 - Toboggan Trajectory
 
@@ -152,3 +156,20 @@ The locations you'd check in the above example are marked here with `O` where th
 In this example, traversing the map using this slope would cause you to encounter `7` trees.
 
 Starting at the top-left corner of your map and following a slope of right 3 and down 1, how many trees would you encounter?
+
+### Part 2
+
+Time to check the rest of the slopes - you need to minimize the probability of a sudden arboreal stop, after all.
+
+Determine the number of trees you would encounter if, for each of the following slopes, you start at the top-left corner and traverse the map all the way to the bottom:
+
+Right 1, down 1.
+Right 3, down 1. (This is the slope you already checked.)
+Right 5, down 1.
+Right 7, down 1.
+Right 1, down 2.
+In the above example, these slopes would find 2, 7, 3, 4, and 2 tree(s) respectively; multiplied together, these produce the answer 336.
+
+What do you get if you multiply together the number of trees encountered on each of the listed slopes?
+
+<p align="right">[▲](#advent-of-code-2020)</p>
