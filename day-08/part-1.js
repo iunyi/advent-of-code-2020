@@ -1,4 +1,3 @@
-const { Console } = require('console');
 const fs = require('fs');
 const rawInput = fs.readFileSync('input.txt', 'utf-8');
 const rawOperations = rawInput.split('\n');
