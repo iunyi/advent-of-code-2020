@@ -1,8 +1,7 @@
 const fs = require('fs');
 const rawInput = fs.readFileSync('input.txt', 'utf-8');
 const rawNumbers = rawInput.split('\n');
-const numbers = rawNumbers.map(number => Number(number))
-
+const numbers = rawNumbers.map(number => Number(number));
 
 const findInvalidNumber = () => {
     for (let i = 0; i < numbers.length; i++) {
